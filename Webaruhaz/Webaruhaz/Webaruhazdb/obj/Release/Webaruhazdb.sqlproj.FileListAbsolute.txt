@@ -1,0 +1,5 @@
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\bin\Release\Webaruhazdb.dacpac
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\bin\Release\Webaruhazdb.dll
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\bin\Release\Webaruhazdb.pdb
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\obj\Release\Webaruhazdb.dll
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\obj\Release\Webaruhazdb.pdb

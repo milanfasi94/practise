@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[ShoppingCart]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[ShoppingCart] (Default Constraint)
+       unnamed constraint on [dbo].[ShoppingCart] (Default Constraint)
+     Table rebuild
+       [dbo].[ShoppingCart] (Table)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

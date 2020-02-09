@@ -1,0 +1,19 @@
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\bin\Debug\Webaruhazdb.dacpac
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\bin\Debug\Webaruhazdb.dll
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\bin\Debug\Webaruhazdb.pdb
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\obj\Debug\Webaruhazdb.dll
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\obj\Debug\Webaruhazdb.pdb
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\obj\Debug\Model.xml
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\obj\Debug\refactor.xml
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\obj\Debug\postdeploy.sql
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\obj\Debug\predeploy.sql
+C:\Users\Milán\source\repos\Webaruhaz\Webaruhazdb\obj\Debug\Webaruhazdb.sqlprojAssemblyReference.cache
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\bin\Debug\Webaruhazdb.dacpac
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\bin\Debug\Webaruhazdb.dll
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\bin\Debug\Webaruhazdb.pdb
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\obj\Debug\Webaruhazdb.dll
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\obj\Debug\Webaruhazdb.pdb
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\obj\Debug\Model.xml
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\obj\Debug\refactor.xml
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\obj\Debug\postdeploy.sql
+C:\Users\moric\OneDrive\Asztali gép\c# Beadandó\Webaruhaz\Webaruhaz\Webaruhazdb\obj\Debug\predeploy.sql

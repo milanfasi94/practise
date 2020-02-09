@@ -1,0 +1,65 @@
+﻿@model  IEnumerable <Webaruhaz.Models.Parfum>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    @Styles.Render("~/Content/Site.css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+
+</head>
+<h3 class="h3">Parfümeink:</h3>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        int num = item.Id + 1;
+
+        int akcioszazalek = item.Akcioszazalek;
+        string pathbuild = "/Content/Images/Products/" + num + ".jpg";
+
+    <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+            <div class="product-image">
+                <a href="#">
+                    <img src=@pathbuild>
+                </a>
+                @if (item.Akcios)
+                {
+                    <span class="product-new-label">Akció</span>
+                    <span class="product-discount-label">@akcioszazalek%</span>
+
+                }
+                @if (Model.OrderByDescending(u => u.Id).FirstOrDefault().Id == item.Id)
+                {
+                <span class="product-new-label">Új</span>
+                }
+
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="#">@Html.DisplayFor(modelitem => item.Name)</a></h3>
+                <div class="price">
+                    @Html.DisplayFor(modelItem => item.Price) Ft
+                    @if (item.Akcios)
+                    {
+                        double szam = item.Price;
+                        double akciosar = Math.Floor((100 - akcioszazalek) * szam / 100);
+                        <span> @akciosar Ft</span>
+                    }
+
+                </div>
+
+               <a href="@Url.Action("kosarba", "parfums", new { item.Id })">+Kosárba rakom</a>
+               
+
+            </div>
+        </div>
+    </div>
+    }
+
+
+
+</div>
+

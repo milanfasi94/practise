@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WebaruhazContext-Web.config Connection String" description="WebaruhazContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=WebaruhazContext-20191126103350; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|WebaruhazContext-20191126103350.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\moric\\OneDrive\\Asztali\ gép\\c\#\ Beadandó\\Webaruhaz\\Webaruhaz\\Webaruhaz\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebaruhazContext']/@connectionString" />
+  </parameter>
+  <parameter name="Model1-Web.config Connection String" description="Model1 Connection String used in web.config by the application to access the database." defaultValue="data source=DESKTOP-U756HM6\SQLEXPRESS;initial catalog=Webaruhaz;user id=sa;password=SQLjgypk2014;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\moric\\OneDrive\\Asztali\ gép\\c\#\ Beadandó\\Webaruhaz\\Webaruhaz\\Webaruhaz\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model1']/@connectionString" />
+  </parameter>
+</parameters>

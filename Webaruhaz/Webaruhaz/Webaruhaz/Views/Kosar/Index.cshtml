@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Webaruhaz.Models.ShoppingCart>
+
+@{
+    ViewBag.Title = "Kosar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Kosar</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    double osszes = 0;
+<div class="form-horizontal">
+    <h4>A kosár tartalma:</h4>
+    <hr />
+    <table class="table">
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.osszeg)
+            </th>
+            
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            osszes += item.osszeg;
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Created)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.osszeg)
+                </td>
+                
+              
+            </tr>
+        }
+        <tr>
+            <td>
+                </td>
+            <td>
+                </td>
+            <td>
+                Összesen:@osszes Ft
+            </td>
+        </tr>
+    </table>
+   Név: <input type="text" class="input-sm" />
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+             <input type="submit" value="Megrendelem" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+   <a href="/parfums/Index">Vissza a parfümökhöz!</a>
+</div>
